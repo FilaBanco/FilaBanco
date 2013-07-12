@@ -18,12 +18,12 @@
           <content>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
               <children>
-                <RadioButton id="atendente5" layoutX="362.0" layoutY="16.0" mnemonicParsing="false" text="Atendente" />
-                <RadioButton id="atendente4" layoutX="275.0" layoutY="16.0" mnemonicParsing="false" text="Atendente" />
-                <RadioButton id="atendente2" layoutX="107.0" layoutY="16.0" mnemonicParsing="false" text="Atendente" />
-                <RadioButton id="atendente1" layoutX="24.0" layoutY="16.0" mnemonicParsing="false" text="Atendente" />
-                <RadioButton id="atendente3" layoutX="192.0" layoutY="16.0" mnemonicParsing="false" text="Atendente" />
-                <Button id="encExpediente" fx:id="encerrar" layoutX="478.0" layoutY="134.0" mnemonicParsing="false" prefWidth="144.0" text="Encerrar Expediente" />
+                <RadioButton id="atendente5" fx:id="r5" layoutX="362.0" layoutY="16.0" mnemonicParsing="false" text="Atendente" />
+                <RadioButton id="atendente4" fx:id="r4" layoutX="275.0" layoutY="16.0" mnemonicParsing="false" text="Atendente" />
+                <RadioButton id="atendente2" fx:id="r2" layoutX="107.0" layoutY="17.0" mnemonicParsing="false" text="Atendente" />
+                <RadioButton id="atendente1" fx:id="r1" layoutX="24.0" layoutY="16.0" mnemonicParsing="false" text="Atendente" />
+                <RadioButton id="atendente3" fx:id="r3" layoutX="192.0" layoutY="16.0" mnemonicParsing="false" text="Atendente" />
+                <Button id="encExpediente" fx:id="encerrar" layoutX="478.0" layoutY="134.0" mnemonicParsing="false" onAction="#iniciarAction" prefWidth="144.0" text="Encerrar Expediente" />
                 <Button id="iniExpediente" fx:id="iniciar" layoutX="478.0" layoutY="103.0" mnemonicParsing="false" onAction="#iniciarAction" prefWidth="143.37890625" text="Iniciar Expediente" />
                 <Text layoutX="479.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Próximo Ticket">
                   <font>
